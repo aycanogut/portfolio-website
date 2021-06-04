@@ -1,17 +1,24 @@
 // nav
 
 .nav {
-}
+  &__list {
+    @include transition(0.4s);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 10;
+    width: 79%;
+    height: 400px;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 0;
+  }
 
-.nav__list {
-  position: absolute;
-  top: 0;
-  left: -100%;
-  z-index: 10;
-  width: 100%;
-  height: auto;
-  @include transition(0.4s);
-  background-color: #fff;
+  &__item {
+    padding: 24px 0;
+  }
 }
 
 .nav__show {

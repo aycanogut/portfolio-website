@@ -10,8 +10,8 @@ const showNav = () => {
   const secondChild = burgerToggler[1];
   const thirdChild = burgerToggler[2];
 
+  // burger items
   firstChild.classList.toggle('toggler-1');
   secondChild.classList.toggle('toggler-2');
   thirdChild.classList.toggle('toggler-3');
-
 }
