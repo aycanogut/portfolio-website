@@ -3,6 +3,7 @@
 // 01-abstract
 @import "01-abstracts/variables";
 @import "01-abstracts/mixin";
+@import "01-abstracts/font-stack";
 
 // 02-vendors
 @import "02-vendors/bootstrap";
@@ -11,7 +12,6 @@
 @import "02-vendors/include-media";
 
 // 03-base
-@import "03-base/fonts";
 @import "03-base/typo";
 @import "03-base/base";
 
