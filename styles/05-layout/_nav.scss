@@ -3,9 +3,25 @@
 .nav {
 }
 
+.nav__list {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  @include transition(0.4s);
+  background-color: #fff;
+}
+
+.nav__show {
+  left: 0;
+}
+
 // hamburger toggler
 .hamburger-toggler {
   cursor: pointer;
+  z-index: 11;
 
   .toggler {
     display: block;
@@ -18,38 +34,40 @@
   }
 
   .toggler:first-child {
-    top: 22px;
+    top: 18px;
   }
 
   .toggler:nth-child(2) {
-    top: 30px;
+    top: 26px;
   }
 
   .toggler:last-of-type {
-    top: 38px;
+    top: 34px;
   }
 
-  .toggler:nth-of-type(1) {
+  .toggler-1 {
+    position: absolute;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    top: 32px;
+    top: 34px !important;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
 
-  .toggler:nth-of-type(2) {
+  .toggler-2 {
     opacity: 0;
   }
 
-  .toggler:nth-of-type(3) {
+  .toggler-3 {
+    position: absolute;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     -o-transform: rotate(135deg);
-    top: 32px;
+    top: 26px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
 }
