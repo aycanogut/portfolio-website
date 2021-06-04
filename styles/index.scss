@@ -1,7 +1,7 @@
 // global stylesheet
 
 // 01-abstract
-@import "01-abstracts/variables";
+@import "01-abstracts/colors";
 @import "01-abstracts/mixin";
 @import "01-abstracts/font-stack";
 
@@ -25,7 +25,6 @@
 @import "05-layout/footer";
 
 // 06-sections
-
 @import "06-sections/home";
 @import "06-sections/work";
 @import "06-sections/about";
