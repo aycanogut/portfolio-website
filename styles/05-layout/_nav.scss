@@ -1,14 +1,17 @@
 // nav
 
 .nav {
+  position: fixed;
   height: 80px;
+  width: 100%;
   background-color: #fff;
+  z-index: 99;
   box-shadow: 0 0.3rem 1.5rem 0 rgba(0, 0, 0, 0.25);
 
   &__list {
     @include transition(0.8s);
     position: absolute;
-    top: -100%;
+    left: -100%;
     z-index: 10;
     width: 100%;
     height: 100vh;
@@ -28,12 +31,18 @@
   }
 
   &__link {
-    color: $color-orange;
+    @include transition(0.4s);
+    color: $color-hemlock;
+
+    &:hover {
+      @include transition(0.4s);
+      color: $color-orange;
+    }
   }
 }
 
 .nav__show {
-  top: 0;
+  left: 0;
   @include transition(0.8s);
 }
 
@@ -46,15 +55,15 @@
     display: block;
     position: absolute;
     right: 22px;
-    width: 38px;
-    height: 6px;
+    width: 36px;
+    height: 5px;
     background-color: $color-hemlock;
     transition: all 0.4s;
     border-radius: 30px;
   }
 
   .toggler:first-child {
-    top: 24px;
+    top: 26px;
   }
 
   .toggler:nth-child(2) {
@@ -62,7 +71,7 @@
   }
 
   .toggler:last-of-type {
-    top: 48px;
+    top: 46px;
   }
 
   .toggler-1 {
@@ -72,7 +81,7 @@
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    top: 48px !important;
+    top: 46px !important;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -87,7 +96,7 @@
     -moz-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     -o-transform: rotate(135deg);
-    top: 24px;
+    top: 26px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   }
 }

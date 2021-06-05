@@ -1,11 +1,11 @@
 .home {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
+  padding: 100px 0;
+  background-color: rgba($color-moon, 0.3);
 
   &__header {
-    // padding: 10px;
     text-align: center;
   }
 

@@ -11475,8 +11475,11 @@ a:hover {
 }
 
 .nav {
+  position: fixed;
   height: 80px;
+  width: 100%;
   background-color: #fff;
+  z-index: 99;
   box-shadow: 0 0.3rem 1.5rem 0 rgba(0, 0, 0, 0.25);
 }
 .nav__list {
@@ -11485,7 +11488,7 @@ a:hover {
   -o-transition: 0.8s;
   transition: 0.8s;
   position: absolute;
-  top: -100%;
+  left: -100%;
   z-index: 10;
   width: 100%;
   height: 100vh;
@@ -11503,11 +11506,22 @@ a:hover {
   padding: 24px 0;
 }
 .nav__link {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  color: #57523e;
+}
+.nav__link:hover {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
   color: #d94c1a;
 }
 
 .nav__show {
-  top: 0;
+  left: 0;
   -webkit-transition: 0.8s;
   -moz-transition: 0.8s;
   -o-transition: 0.8s;
@@ -11522,20 +11536,20 @@ a:hover {
   display: block;
   position: absolute;
   right: 22px;
-  width: 38px;
-  height: 6px;
+  width: 36px;
+  height: 5px;
   background-color: #57523e;
   transition: all 0.4s;
   border-radius: 30px;
 }
 .hamburger-toggler .toggler:first-child {
-  top: 24px;
+  top: 26px;
 }
 .hamburger-toggler .toggler:nth-child(2) {
   top: 36px;
 }
 .hamburger-toggler .toggler:last-of-type {
-  top: 48px;
+  top: 46px;
 }
 .hamburger-toggler .toggler-1 {
   position: absolute;
@@ -11544,7 +11558,7 @@ a:hover {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
-  top: 48px !important;
+  top: 46px !important;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 .hamburger-toggler .toggler-2 {
@@ -11557,7 +11571,7 @@ a:hover {
   -moz-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -o-transform: rotate(135deg);
-  top: 24px;
+  top: 26px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -11568,8 +11582,9 @@ a:hover {
 .home {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
+  padding: 100px 0;
+  background-color: rgba(215, 216, 201, 0.3);
 }
 .home__header {
   text-align: center;
