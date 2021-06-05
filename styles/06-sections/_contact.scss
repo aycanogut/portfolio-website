@@ -1,0 +1,14 @@
+.contact {
+  height: auto;
+  padding: 50px 0;
+
+  &__header {
+    margin: 50px 0 0 0;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 40px 0;
+  }
+}

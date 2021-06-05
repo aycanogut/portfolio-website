@@ -11816,7 +11816,7 @@ a:hover {
 }
 .about__text {
   text-align: justify;
-  padding: 20px 12px;
+  padding: 20px;
   background-color: rgba(164, 166, 138, 0.1);
 }
 .about__skills {
@@ -11826,6 +11826,19 @@ a:hover {
 }
 .about__icon {
   margin: 12px;
+}
+
+.contact {
+  height: auto;
+  padding: 50px 0;
+}
+.contact__header {
+  margin: 50px 0 0 0;
+}
+.contact__title {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 40px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
