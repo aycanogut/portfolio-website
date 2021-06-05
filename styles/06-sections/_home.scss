@@ -37,7 +37,11 @@
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @include media(">=md") {
   .home {
-    padding: 180px 5% 0 5%;
+    padding: 320px 5% 0 5%;
+
+    &__bottom {
+      padding: 280px 0 0 0;
+    }
   }
 }
 
