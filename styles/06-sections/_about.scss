@@ -28,3 +28,41 @@
     margin: 12px;
   }
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@include media(">=sm") {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@include media(">=md") {
+  .about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    &__header,
+    &__title {
+      padding: 30px 0;
+      margin: 0;
+    }
+
+    &__myself,
+    &__stack {
+      margin: 50px 0;
+    }
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@include media(">=lg") {
+  .about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@include media(">=xl") {
+}

@@ -11920,6 +11920,32 @@ a:hover {
   margin: 12px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .about__header, .about__title {
+    padding: 30px 0;
+    margin: 0;
+  }
+  .about__myself, .about__stack {
+    margin: 50px 0;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
 .contact {
   height: auto;
   margin: 50px 0;
