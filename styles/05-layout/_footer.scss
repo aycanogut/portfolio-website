@@ -1,2 +1,17 @@
 .footer {
+  background-color: rgba($color-tallow, 0.3);
+
+  &__social__items {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+  }
 }

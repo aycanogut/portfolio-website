@@ -11550,11 +11550,14 @@ a:hover {
   -moz-transition: 0.6s ease-in;
   -o-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
+  margin: 10px;
   color: #000;
 }
 .icon--home {
   font-size: 38px;
-  margin: 10px;
+}
+.icon--footer {
+  font-size: 30px;
 }
 
 .icon-github:hover {
@@ -11589,7 +11592,7 @@ a:hover {
   color: #1da1f2;
 }
 
-.btn_def--work {
+.btn_def {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -11599,7 +11602,7 @@ a:hover {
   background-color: rgba(242, 190, 36, 0.7);
   color: #000;
 }
-.btn_def--work:hover {
+.btn_def:hover {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -11764,6 +11767,22 @@ a:hover {
 }
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
+.footer {
+  background-color: rgba(164, 166, 138, 0.3);
+}
+.footer__social__items {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
+
 .home {
   height: 100vh;
   display: flex;
