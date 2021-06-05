@@ -1,0 +1,13 @@
+.work {
+  height: auto;
+  padding: 100px 0;
+
+  &__header {
+    text-align: center;
+    margin: 100px 0;
+  }
+
+  &__title {
+    text-transform: capitalize;
+  }
+}

@@ -11472,6 +11472,7 @@ h2 {
 
 html {
   scroll-behavior: smoothing;
+  scroll-padding: 2em;
 }
 
 li {
@@ -11480,6 +11481,13 @@ li {
 
 a:hover {
   text-decoration: none;
+}
+
+.card {
+  border: none;
+}
+.card--work img {
+  width: 100%;
 }
 
 .nav {
@@ -11623,6 +11631,18 @@ a:hover {
 }
 .home__name::after {
   content: "👋";
+}
+
+.work {
+  height: auto;
+  padding: 100px 0;
+}
+.work__header {
+  text-align: center;
+  margin: 100px 0;
+}
+.work__title {
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+/// card style
+
+.card {
+  border: none;
+  &--work {
+    img {
+      width: 100%;
+    }
+  }
+}
