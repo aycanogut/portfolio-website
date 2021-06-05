@@ -33,7 +33,7 @@
   <!-- main start -->
   <main>
     <!-- home start -->
-    <div class="container-fluid p-0 ">
+    <div class="container-fluid p-0">
       <section class="home" id="home">
         <div class="row">
           <div class="col-lg-6 col-12">
@@ -72,8 +72,6 @@
             </section>
           </div>
         </div>
-
-
       </section>
     </div>
     <!-- home end -->
@@ -116,7 +114,6 @@
                     <span class="about__icon icon-figma"></span>
                   </div>
                 </div>
-
               </section>
             </section>
           </div>
@@ -266,39 +263,41 @@
     </div>
     <!-- work end -->
     <!-- contact start -->
-    <section class="contact" id="contact">
-      <!-- comment start -->
-      <section class="contact__comment">
-        <form action="#" class="contact__form">
-          <div class="row">
-            <!-- first name -->
-            <div class="col">
-              <label for="exampleFormControlInput1" class="form-label">First name</label>
-              <input type="text" class="form-control" placeholder="Your first name" aria-label="First name">
+    <div class="container">
+      <section class="contact" id="contact">
+        <!-- comment start -->
+        <section class="contact__comment">
+          <form action="#" class="contact__form">
+            <div class="row">
+              <!-- first name -->
+              <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">First name</label>
+                <input type="text" class="form-control" placeholder="Your first name" aria-label="First name">
+              </div>
+              <!-- last name -->
+              <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                <input type="text" class="form-control" placeholder="Your last name" aria-label="Last name">
+              </div>
             </div>
-            <!-- last name -->
-            <div class="col">
-              <label for="exampleFormControlInput1" class="form-label">Last name</label>
-              <input type="text" class="form-control" placeholder="Your last name" aria-label="Last name">
+            <!-- e-mail -->
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-          </div>
-          <!-- e-mail -->
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <!-- message -->
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="mb-3">
-            <button class="btn btn-primary" type="submit">Submit form</button>
-          </div>
-        </form>
+            <!-- message -->
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        </section>
+        <!-- comment end -->
       </section>
-      <!-- comment end -->
-    </section>
+    </div>
     <!-- contact end -->
   </main>
   <!-- main end -->

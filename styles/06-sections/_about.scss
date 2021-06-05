@@ -1,6 +1,6 @@
 .about {
   height: auto;
-  padding: 50px 12px;
+  padding: 50px 0;
 
   &__header {
     margin: 80px 0 0 0;
@@ -14,10 +14,14 @@
 
   &__text {
     text-align: justify;
+    padding: 20px 12px;
+    background-color: rgba($color-tallow, 0.1);
   }
 
   &__skills {
     margin: auto 0;
+    padding: 20px;
+    background-color: rgba($color-tallow, 0.1);
   }
 
   &__icon {

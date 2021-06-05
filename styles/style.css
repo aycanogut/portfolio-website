@@ -11534,8 +11534,7 @@ h2 {
 }
 
 html {
-  scroll-behavior: smoothing;
-  scroll-padding: 2em;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -11767,6 +11766,7 @@ a:hover {
   align-items: center;
   background-color: rgba(215, 216, 201, 0.3);
   padding: 180px 0 0 0;
+  overflow-x: hidden;
 }
 .home__header {
   text-align: center;
@@ -11804,7 +11804,7 @@ a:hover {
 
 .about {
   height: auto;
-  padding: 50px 12px;
+  padding: 50px 0;
 }
 .about__header {
   margin: 80px 0 0 0;
@@ -11816,9 +11816,13 @@ a:hover {
 }
 .about__text {
   text-align: justify;
+  padding: 20px 12px;
+  background-color: rgba(164, 166, 138, 0.1);
 }
 .about__skills {
   margin: auto 0;
+  padding: 20px;
+  background-color: rgba(164, 166, 138, 0.1);
 }
 .about__icon {
   margin: 12px;
