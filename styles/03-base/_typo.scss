@@ -85,11 +85,17 @@ h2 {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @include media(">=md") {
   h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 40px;
+  }
+
+  .home {
+    &__name {
+      font-size: 50px;
+    }
   }
 }
 

@@ -11536,11 +11536,15 @@ h2 {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 40px;
+  }
+
+  .home__name {
+    font-size: 50px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -11604,6 +11608,17 @@ a:hover {
   color: #1da1f2;
 }
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .icon--home {
+    font-size: 50px;
+  }
+  .icon--footer {
+    font-size: 30px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 .btn_def {
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -11826,6 +11841,14 @@ a:hover {
   padding: 0;
 }
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .home {
+    padding: 180px 5% 0 5%;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 .work {
   height: auto;
   padding: 50px 0;
