@@ -11533,6 +11533,20 @@ h2 {
   font-size: 16px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .home__name {
+    font-size: 42px;
+  }
+}
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   h1 {
@@ -11608,6 +11622,15 @@ a:hover {
   color: #1da1f2;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .icon--home {
+    font-size: 50px;
+  }
+  .icon--footer {
+    font-size: 30px;
+  }
+}
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
   .icon--home {

@@ -82,6 +82,23 @@ h2 {
   }
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@include media(">=sm") {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .home {
+    &__name {
+      font-size: 42px;
+    }
+  }
+}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @include media(">=md") {
   h1 {
