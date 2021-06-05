@@ -16,6 +16,10 @@ h2 {
   font-weight: $bold;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 // nav section
 .nav {
   &__link {
@@ -42,7 +46,7 @@ h2 {
   }
 }
 
-// about sections
+// about section
 .about {
   &__title {
     font-weight: $semibold;
@@ -92,6 +96,10 @@ h2 {
     font-size: 34px;
   }
 
+  h3 {
+    font-size: 30px;
+  }
+
   .home {
     &__name {
       font-size: 42px;
@@ -109,9 +117,32 @@ h2 {
     font-size: 40px;
   }
 
+  h3 {
+    font-size: 40px;
+  }
+
   .home {
     &__name {
       font-size: 50px;
+    }
+  }
+
+  .about {
+    &__title {
+      font-weight: $semibold;
+    }
+
+    &__header {
+      font-weight: $semibold;
+      font-size: 26px;
+    }
+
+    &__text {
+      line-height: 25px;
+    }
+
+    &__icon {
+      font-size: 42px;
     }
   }
 }

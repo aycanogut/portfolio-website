@@ -11490,6 +11490,10 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 .nav__link {
   font-size: 22px;
 }
@@ -11543,6 +11547,10 @@ h2 {
     font-size: 34px;
   }
 
+  h3 {
+    font-size: 30px;
+  }
+
   .home__name {
     font-size: 42px;
   }
@@ -11557,8 +11565,26 @@ h2 {
     font-size: 40px;
   }
 
+  h3 {
+    font-size: 40px;
+  }
+
   .home__name {
     font-size: 50px;
+  }
+
+  .about__title {
+    font-weight: 600;
+  }
+  .about__header {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .about__text {
+    line-height: 25px;
+  }
+  .about__icon {
+    font-size: 42px;
   }
 }
 /* Large devices (desktops, 992px and up) */
