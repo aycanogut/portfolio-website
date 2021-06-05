@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: $bold;
   line-height: 50px;
 }
@@ -17,12 +17,12 @@ h2 {
 }
 
 // home section
-
 .home {
   &__name {
     text-shadow: 1px 1px $color-moon;
     font-size: 24px;
   }
+
   &__job {
     text-shadow: 1px 1px $color-saffron;
   }
