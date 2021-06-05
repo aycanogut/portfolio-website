@@ -11474,29 +11474,44 @@ a:hover {
   text-decoration: none;
 }
 
+.nav {
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 0.3rem 1.5rem 0 rgba(0, 0, 0, 0.25);
+}
 .nav__list {
-  -webkit-transition: 0.4s;
-  -moz-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
   position: absolute;
-  top: 0;
-  left: -100%;
+  top: -100%;
   z-index: 10;
-  width: 79%;
-  height: 400px;
-  background-color: #000;
-  text-transform: uppercase;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   font-size: 26px;
+  text-transform: lowercase;
   text-align: center;
-  padding: 20px 0;
+  background-color: #fff;
 }
 .nav__item {
   padding: 24px 0;
 }
+.nav__link {
+  color: #d94c1a;
+}
 
 .nav__show {
-  left: 0;
+  top: 0;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .hamburger-toggler {
@@ -11507,19 +11522,20 @@ a:hover {
   display: block;
   position: absolute;
   right: 22px;
-  width: 30px;
-  height: 4px;
-  background-color: #000;
+  width: 38px;
+  height: 6px;
+  background-color: #57523e;
   transition: all 0.4s;
+  border-radius: 30px;
 }
 .hamburger-toggler .toggler:first-child {
-  top: 18px;
+  top: 24px;
 }
 .hamburger-toggler .toggler:nth-child(2) {
-  top: 26px;
+  top: 36px;
 }
 .hamburger-toggler .toggler:last-of-type {
-  top: 34px;
+  top: 48px;
 }
 .hamburger-toggler .toggler-1 {
   position: absolute;
@@ -11528,7 +11544,7 @@ a:hover {
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
-  top: 34px !important;
+  top: 48px !important;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 .hamburger-toggler .toggler-2 {
@@ -11541,7 +11557,7 @@ a:hover {
   -moz-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -o-transform: rotate(135deg);
-  top: 26px;
+  top: 24px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -11556,7 +11572,6 @@ a:hover {
   height: 100vh;
 }
 .home__header {
-  padding: 12px;
   text-align: center;
 }
 .home__title {
