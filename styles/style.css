@@ -11470,6 +11470,14 @@ h2 {
   text-shadow: 1px 1px #f2be24;
 }
 
+.card__header h4 {
+  font-weight: 600;
+}
+.card__main p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 html {
   scroll-behavior: smoothing;
   scroll-padding: 2em;
@@ -11485,9 +11493,24 @@ a:hover {
 
 .card {
   border: none;
+  padding: 36px 20px;
+  background-color: rgba(164, 166, 138, 0.1);
 }
-.card--work img {
+.card img {
   width: 100%;
+  margin: 0 auto;
+}
+.card__header {
+  text-align: center;
+  padding: 12px 0 0 0;
+}
+.card__main p {
+  padding: 20px 2px;
+  text-align: justify;
+}
+.card__bottom {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .nav {

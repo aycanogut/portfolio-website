@@ -2,9 +2,26 @@
 
 .card {
   border: none;
-  &--work {
-    img {
-      width: 100%;
-    }
+  padding: 36px 20px;
+  background-color: rgba($color-tallow, 0.1);
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__header {
+    text-align: center;
+    padding: 12px 0 0 0;
+  }
+
+  &__main p {
+    padding: 20px 2px;
+    text-align: justify;
+  }
+
+  &__bottom {
+    margin: 0 auto;
+    text-align: center;
   }
 }

@@ -34,3 +34,17 @@ h2 {
     text-shadow: 1px 1px $color-saffron;
   }
 }
+
+// work section
+
+// card
+.card {
+  &__header h4 {
+    font-weight: $semibold;
+  }
+
+  &__main p {
+    font-size: 16px;
+    font-weight: $regular;
+  }
+}
