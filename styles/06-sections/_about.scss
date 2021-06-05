@@ -3,12 +3,10 @@
   padding: 50px 12px;
 
   &__header {
-    text-align: center;
     margin: 80px 0 0 0;
   }
 
-  &__title,
-  &__tech__header {
+  &__title {
     text-transform: capitalize;
     text-align: center;
     padding: 40px 0;

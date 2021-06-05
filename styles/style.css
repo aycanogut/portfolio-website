@@ -11509,9 +11509,12 @@ h2 {
 .about__title {
   font-weight: 600;
 }
-.about__tech__header {
+.about__header {
   font-weight: 600;
   font-size: 26px;
+}
+.about__text {
+  line-height: 25px;
 }
 .about__icon {
   font-size: 42px;
@@ -11523,6 +11526,7 @@ h2 {
 .card__main p {
   font-size: 16px;
   font-weight: 400;
+  line-height: 25px;
 }
 
 .btn_def--work {
@@ -11746,10 +11750,9 @@ a:hover {
   padding: 50px 12px;
 }
 .about__header {
-  text-align: center;
   margin: 80px 0 0 0;
 }
-.about__title, .about__tech__header {
+.about__title {
   text-transform: capitalize;
   text-align: center;
   padding: 40px 0;

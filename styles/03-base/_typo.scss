@@ -48,9 +48,13 @@ h2 {
     font-weight: $semibold;
   }
 
-  &__tech__header {
+  &__header {
     font-weight: $semibold;
     font-size: 26px;
+  }
+
+  &__text {
+    line-height: 25px;
   }
 
   &__icon {
@@ -67,6 +71,7 @@ h2 {
   &__main p {
     font-size: 16px;
     font-weight: $regular;
+    line-height: 25px;
   }
 }
 
