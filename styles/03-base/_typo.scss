@@ -1,5 +1,6 @@
-// typo global
+/// typo global
 
+// base styles
 body {
   font-family: $font-family;
 }
@@ -11,5 +12,17 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: $regular;
+  font-weight: $bold;
+}
+
+// home section
+
+.home {
+  &__name {
+    text-shadow: 1px 1px $color-moon;
+    font-size: 24px;
+  }
+  &__job {
+    text-shadow: 1px 1px $color-saffron;
+  }
 }

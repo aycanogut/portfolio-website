@@ -11433,7 +11433,15 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
+}
+
+.home__name {
+  text-shadow: 1px 1px #d7d8c9;
+  font-size: 24px;
+}
+.home__job {
+  text-shadow: 1px 1px #f2be24;
 }
 
 li {
