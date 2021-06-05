@@ -11768,7 +11768,7 @@ a:hover {
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 .footer {
-  background-color: rgba(164, 166, 138, 0.3);
+  background-color: rgba(164, 166, 138, 0.1);
 }
 .footer__social__items {
   display: flex;
@@ -11780,7 +11780,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65px;
+  height: 80px;
 }
 
 .home {

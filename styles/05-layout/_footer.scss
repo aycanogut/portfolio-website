@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgba($color-tallow, 0.3);
+  background-color: rgba($color-tallow, 0.1);
 
   &__social__items {
     display: flex;
@@ -12,6 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 80px;
   }
 }
