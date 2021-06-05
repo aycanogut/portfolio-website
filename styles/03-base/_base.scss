@@ -1,5 +1,9 @@
 // base styles
 
+html {
+  scroll-behavior: smoothing;
+}
+
 li {
   list-style: none;
 }

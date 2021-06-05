@@ -16,6 +16,13 @@ h2 {
   font-weight: $bold;
 }
 
+// nav section
+.nav {
+  &__link {
+    font-size: 26px;
+  }
+}
+
 // home section
 .home {
   &__name {

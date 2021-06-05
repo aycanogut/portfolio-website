@@ -32,8 +32,8 @@
   <!-- nav end -->
   <!-- main start -->
   <main>
-    <div class="container p-0">
-      <!-- home start -->
+    <!-- home start -->
+    <div class="container-fluid p-0 ">
       <section class="home" id="home">
         <header class="home__header">
           <h2 class="home__sub-title">
@@ -45,141 +45,205 @@
           </h1>
         </header>
       </section>
-      <!-- home end -->
-      <!-- work start -->
-      <section class="work" id="work">
-        <header class="work__header">
-          <h3 class="work__title">my portfolio</h3>
-        </header>
-        <section class="work__portfolio">
-          <div class="row">
-            <div class="col-xl-3 col-md-6 col-sm-12">
-              <article class="work__card">
-                <header class="work__card__header">
-                  <a href="https://github.com/aycanogut/seo-landing-page">
-                    <h4>SEO Landing Page - Web Application</h4>
-                  </a>
-                  <time>Dec 2020 – Jan 2021</time>
-                </header>
-                <img src="./assets/images/work-card/seo.png" alt="seo services website design image">
-                <p>This is my first project with front-end technologies. It's a landing page that related to SEO
-                  services. I learned concepts like usage of HTML and CSS, SASS structure, BEM methodology and pixel
-                  perfect design.</p>
-              </article>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-              <article class="work__card">
-                <header class="work__card__header">
-                  <a href="https://github.com/aycanogut/knife-application">
-                    <h4>Knife Application - Web Application</h4>
-                  </a>
-                  <time>Jan 2021 – Feb 2021</time>
-                </header>
-                <img src="./assets/images/work-card/knife.png" alt="landing page creation website design image">
-                <p>It's a landing page creation platform with single page. I practiced HTML and CSS, SASS structure,
-                  BEM
-                  methodology, little bit of Bootstrap grid system, hover animations and pixel perfect design.</p>
-              </article>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-              <article class="work__card">
-                <header class="work__card__header">
-                  <a href="https://github.com/aycanogut/seo-landing-page">
-                    <h4>Oval Job Finder - Web Application</h4>
-                  </a>
-                  <time>Feb 2021 – Apr 2021</time>
-                </header>
-                <img src="./assets/images/work-card/oval.png" alt="job searching platform website design image">
-                <p> It's a job searching platform website with multiple pages. I learned mobile-first design,
-                  component
-                  based Modular CSS, re-usability of page elements and layouts, Bootstrap grid system, a better grasp
-                  usage of semantic HTML elements, responsive web design and had experience working with multiple
-                  pages.
-                </p>
-              </article>
-            </div>
-            <div class="col-xl-3 col-md-6 col-sm-12">
-              <article class="work__card">
-                <header class="work__card__header">
-                  <a href="https://github.com/aycanogut/odin-project-curriculum">
-                    <h4>Rock, Paper, Scissors - Browser Game</h4>
-                  </a>
-                  <time>June 2021</time>
-                </header>
-                <img src="./assets/images/work-card/game.png" alt="rock paper and scissors web browser game image">
-                <p>It's a game project based on the web browser. I learned some basics of Javascript like manipulating
-                  the
-                  DOM elements, if else conditional statements, arrow functions and achieve some experience with basic
-                  algorithm
-                  patterns.</p>
-              </article>
-            </div>
-          </div>
-        </section>
-      </section>
-      <!-- work end -->
-      <!-- about start -->
-      <section class="about" id="about">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
-            <header class="about__header">
-              <h4 class="about__title">
-                I’m a junior front-end developer based in Izmir, Turkey.
-                I'm in the industry for a couple of months. I have a passion for learning new concepts and technologies.
-                My
-                purpose is improve myself with learning new skills and languages. I want to use that knowledge to solve
-                real
-                world problems and contribute to the community.
-              </h4>
-            </header>
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <section class="about__social">
-              <span class="icon-github"></span>
-              <span class="icon-linkedin"></span>
-              <span class="icon-medium"></span>
-              <span class="icon-twitter"></span>
-            </section>
-          </div>
-        </div>
-      </section>
-      <!-- about end -->
-      <!-- contact start -->
-      <section class="contact" id="contact">
-        <!-- comment start -->
-        <section class="contact__comment">
-          <form action="#" class="contact__form">
-            <div class="row">
-              <!-- first name -->
-              <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">First name</label>
-                <input type="text" class="form-control" placeholder="Your first name" aria-label="First name">
-              </div>
-              <!-- last name -->
-              <div class="col">
-                <label for="exampleFormControlInput1" class="form-label">Last name</label>
-                <input type="text" class="form-control" placeholder="Your last name" aria-label="Last name">
-              </div>
-            </div>
-            <!-- e-mail -->
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <!-- message -->
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-              <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
-          </form>
-        </section>
-        <!-- comment end -->
-      </section>
-      <!-- contact end -->
     </div>
+    <!-- home end -->
+    <!-- work start -->
+    <div class="container">
+      <div class="wrapper">
+        <section class="work" id="work">
+          <header class="work__header">
+            <h3 class="work__title">my portfolio</h3>
+          </header>
+          <section class="work__portfolio">
+            <div class="row">
+              <div class="col-12">
+                <article class="work__card">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="./assets/images/work-card/seo.png" alt="seo services website design image">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <header class="work__card__header">
+                        <h4>SEO Landing Page - Web Application</h4>
+                      </header>
+                      <section class="work__card__main">
+                        <p>This is my first project with front-end technologies. It's a landing page that related to SEO
+                          services. I learned concepts like usage of HTML and CSS, SASS structure, BEM methodology and
+                          pixel
+                          perfect design.</p>
+                        <time>Dec 2020 – Jan 2021</time>
+                        <div class="work__buttons">
+                          <a href="https://seo-landing-page.vercel.app/#" class="btn_def btn_def--work">See preview
+                          </a>
+                          <a href="https://github.com/aycanogut/seo-landing-page" class="btn_def btn_def--work">Github
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12">
+                <article class="work__card">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="./assets/images/work-card/knife.png" alt="job searching platform website design image">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <header class="work__card__header">
+                        <h4>Knife Application - Web Application</h4>
+                      </header>
+                      <section class="work__card__main">
+                        <p>It's a landing page creation platform with single page. I practiced HTML and CSS, SASS
+                          structure,
+                          BEM
+                          methodology, little bit of Bootstrap grid system, hover animations and pixel perfect design.
+                        </p>
+                        <time>Dec 2020 – Jan 2021</time>
+                        <div class="work__buttons">
+                          <a href="https://knife-application.vercel.app/" class="btn_def btn_def--work">See preview
+                          </a>
+                          <a href="https://github.com/aycanogut/knife-application" class="btn_def btn_def--work">Github
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12">
+                <article class="work__card">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="./assets/images/work-card/oval.png" alt="job searching platform website design image">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <header class="work__card__header">
+                        <h4>Oval Job Finder - Web Application</h4>
+                      </header>
+                      <section class="work__card__main">
+                        <p> It's a job searching platform website with multiple pages. I learned mobile-first design,
+                          component
+                          based Modular CSS, re-usability of page elements and layouts, Bootstrap grid system, a better
+                          grasp
+                          usage of semantic HTML elements, responsive web design and had experience working with
+                          multiple
+                          pages.
+                        </p>
+                        <time>Feb 2021 – Apr 2021</time>
+                        <div class="work__buttons">
+                          <a href="https://oval-finder.vercel.app/homepage.html" class="btn_def btn_def--work">See
+                            preview
+                          </a>
+                          <a href="https://github.com/aycanogut/oval-finder" class="btn_def btn_def--work">Github
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-12">
+                <article class="work__card">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="./assets/images/work-card/game.png"
+                        alt="rock paper and scissors web browser game image">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <header class="work__card__header">
+                        <h4>Rock, Paper, Scissors - Browser Game</h4>
+                      </header>
+                      <section class="work__card__main">
+                        <p>It's a game project based on the web browser. I learned some basics of Javascript like
+                          manipulating
+                          the
+                          DOM elements, if else conditional statements, arrow functions and achieve some experience with
+                          basic
+                          algorithm
+                          patterns.</p>
+                        <time>June 2021</time>
+                        <div class="work__buttons">
+                          <a href="https://odin-project-curriculum.vercel.app/rock-paper-scissors/index.html"
+                            class="btn_def btn_def--work">See
+                            preview
+                          </a>
+                          <a href="https://github.com/aycanogut/odin-project-curriculum/tree/main/rock-paper-scissors"
+                            class="btn_def btn_def--work">Github
+                          </a>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+    <!-- work end -->
+    <!-- about start -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <header class="about__header">
+            <h4 class="about__title">
+              I’m a junior front-end developer based in Izmir, Turkey.
+              I'm in the industry for a couple of months. I have a passion for learning new concepts and technologies.
+              My
+              purpose is improve myself with learning new skills and languages. I want to use that knowledge to solve
+              real
+              world problems and contribute to the community.
+            </h4>
+          </header>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <section class="about__social">
+            <span class="icon-github"></span>
+            <span class="icon-linkedin"></span>
+            <span class="icon-medium"></span>
+            <span class="icon-twitter"></span>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- contact start -->
+    <section class="contact" id="contact">
+      <!-- comment start -->
+      <section class="contact__comment">
+        <form action="#" class="contact__form">
+          <div class="row">
+            <!-- first name -->
+            <div class="col">
+              <label for="exampleFormControlInput1" class="form-label">First name</label>
+              <input type="text" class="form-control" placeholder="Your first name" aria-label="First name">
+            </div>
+            <!-- last name -->
+            <div class="col">
+              <label for="exampleFormControlInput1" class="form-label">Last name</label>
+              <input type="text" class="form-control" placeholder="Your last name" aria-label="Last name">
+            </div>
+          </div>
+          <!-- e-mail -->
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <!-- message -->
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </section>
+      <!-- comment end -->
+    </section>
+    <!-- contact end -->
   </main>
   <!-- main end -->
   <!-- footer start -->
