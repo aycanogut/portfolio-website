@@ -47,6 +47,15 @@ h2 {
   &__title {
     font-weight: $semibold;
   }
+
+  &__tech__header {
+    font-weight: $semibold;
+    font-size: 26px;
+  }
+
+  &__icon {
+    font-size: 42px;
+  }
 }
 
 // card

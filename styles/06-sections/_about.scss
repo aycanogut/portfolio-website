@@ -1,13 +1,28 @@
 .about {
   height: auto;
-  padding: 50px 0;
+  padding: 50px 12px;
 
   &__header {
     text-align: center;
     margin: 80px 0 0 0;
   }
 
-  &__title {
+  &__title,
+  &__tech__header {
     text-transform: capitalize;
+    text-align: center;
+    padding: 40px 0;
+  }
+
+  &__text {
+    text-align: justify;
+  }
+
+  &__skills {
+    margin: auto 0;
+  }
+
+  &__icon {
+    margin: 12px;
   }
 }

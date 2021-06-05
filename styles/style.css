@@ -11509,6 +11509,13 @@ h2 {
 .about__title {
   font-weight: 600;
 }
+.about__tech__header {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about__icon {
+  font-size: 42px;
+}
 
 .card__header h4 {
   font-weight: 600;
@@ -11736,14 +11743,25 @@ a:hover {
 
 .about {
   height: auto;
-  padding: 50px 0;
+  padding: 50px 12px;
 }
 .about__header {
   text-align: center;
   margin: 80px 0 0 0;
 }
-.about__title {
+.about__title, .about__tech__header {
   text-transform: capitalize;
+  text-align: center;
+  padding: 40px 0;
+}
+.about__text {
+  text-align: justify;
+}
+.about__skills {
+  margin: auto 0;
+}
+.about__icon {
+  margin: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
