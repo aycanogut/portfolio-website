@@ -41,6 +41,14 @@ h2 {
     font-weight: $semibold;
   }
 }
+
+// about sections
+.about {
+  &__title {
+    font-weight: $semibold;
+  }
+}
+
 // card
 .card {
   &__header h4 {

@@ -11406,8 +11406,8 @@ template {
 
 @font-face {
   font-family: "icomoon";
-  src: url("../../assets/fonts/icon-fonts/icomoon.eot");
-  src: url("../../assets/fonts/icon-fonts/icomoon.ttf") format("truetype"), url("../../assets/fonts/icon-fonts/icomoon.woff") format("woff"), url("../../assets/fonts/icon-fonts/icomoon.svg") format("svg");
+  src: url("../../assets/fonts/icon-fonts/icomoon.eot?u56fop");
+  src: url("../../assets/fonts/icon-fonts/icomoon.eot?u56fop#iefix") format("embedded-opentype"), url("../../assets/fonts/icon-fonts/icomoon.ttf?u56fop") format("truetype"), url("../../assets/fonts/icon-fonts/icomoon.woff?u56fop") format("woff"), url("../../assets/fonts/icon-fonts/icomoon.svg?u56fop#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -11503,6 +11503,10 @@ h2 {
 }
 
 .work__title {
+  font-weight: 600;
+}
+
+.about__title {
   font-weight: 600;
 }
 
@@ -11727,6 +11731,18 @@ a:hover {
   margin: 100px 0 80px 0;
 }
 .work__title {
+  text-transform: capitalize;
+}
+
+.about {
+  height: auto;
+  padding: 50px 0;
+}
+.about__header {
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+.about__title {
   text-transform: capitalize;
 }
 
