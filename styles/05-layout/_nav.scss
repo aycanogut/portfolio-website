@@ -46,6 +46,10 @@
   @include transition(0.8s);
 }
 
+.nav__hide {
+  display: none;
+}
+
 // hamburger toggler
 .hamburger-toggler {
   cursor: pointer;

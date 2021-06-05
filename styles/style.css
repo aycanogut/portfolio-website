@@ -11528,6 +11528,10 @@ a:hover {
   transition: 0.8s;
 }
 
+.nav__hide {
+  display: none;
+}
+
 .hamburger-toggler {
   cursor: pointer;
   z-index: 11;
@@ -11580,10 +11584,10 @@ a:hover {
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 .home {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  padding: 100px 0;
+  align-items: center;
   background-color: rgba(215, 216, 201, 0.3);
 }
 .home__header {

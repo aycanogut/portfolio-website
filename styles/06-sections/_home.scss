@@ -1,8 +1,8 @@
 .home {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  padding: 100px 0;
+  align-items: center;
   background-color: rgba($color-moon, 0.3);
 
   &__header {
