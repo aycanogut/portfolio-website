@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  &__title {
+    padding: 4px 0;
+  }
+}
