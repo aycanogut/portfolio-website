@@ -81,3 +81,22 @@ h2 {
     font-size: 16px;
   }
 }
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@include media(">=md") {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@include media(">=lg") {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@include media(">=xl") {
+}

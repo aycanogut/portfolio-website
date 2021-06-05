@@ -11533,6 +11533,18 @@ h2 {
   font-size: 16px;
 }
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
 html {
   scroll-behavior: smooth;
 }
@@ -11789,7 +11801,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   background-color: rgba(215, 216, 201, 0.3);
-  padding: 180px 0 0 0;
+  padding: 180px 2% 0 2%;
   overflow-x: hidden;
 }
 .home__header {
