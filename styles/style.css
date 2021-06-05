@@ -11427,6 +11427,38 @@ template {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-photoshop:before {
+  content: "";
+}
+
+.icon-bootstrap:before {
+  content: "";
+}
+
+.icon-css:before {
+  content: "";
+}
+
+.icon-figma:before {
+  content: "";
+}
+
+.icon-html:before {
+  content: "";
+}
+
+.icon-git:before {
+  content: "";
+}
+
+.icon-js:before {
+  content: "";
+}
+
+.icon-sass:before {
+  content: "";
+}
+
 .icon-github:before {
   content: "";
 }
@@ -11470,12 +11502,20 @@ h2 {
   text-shadow: 1px 1px #f2be24;
 }
 
+.work__title {
+  font-weight: 600;
+}
+
 .card__header h4 {
   font-weight: 600;
 }
 .card__main p {
   font-size: 16px;
   font-weight: 400;
+}
+
+.btn_def--work {
+  font-size: 16px;
 }
 
 html {
@@ -11498,7 +11538,7 @@ a:hover {
   transition: 0.4s;
   margin: 4px;
   padding: 12px 20px;
-  background-color: rgba(242, 190, 36, 0.5);
+  background-color: rgba(242, 190, 36, 0.7);
   color: #000;
 }
 .btn_def--work:hover {
@@ -11506,7 +11546,7 @@ a:hover {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  background-color: #f2be24;
+  background-color: rgba(242, 190, 36, 0.9);
   color: #000;
 }
 
@@ -11680,11 +11720,11 @@ a:hover {
 
 .work {
   height: auto;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .work__header {
   text-align: center;
-  margin: 100px 0;
+  margin: 100px 0 80px 0;
 }
 .work__title {
   text-transform: capitalize;

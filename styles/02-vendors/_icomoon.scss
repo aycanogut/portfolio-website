@@ -25,18 +25,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-photoshop:before {
+  content: "\e904";
+}
+.icon-bootstrap:before {
+  content: "\e905";
+}
+.icon-css:before {
+  content: "\e906";
+}
+.icon-figma:before {
+  content: "\e907";
+}
+.icon-html:before {
+  content: "\e908";
+}
+.icon-git:before {
+  content: "\e909";
+}
+.icon-js:before {
+  content: "\e90a";
+}
+.icon-sass:before {
+  content: "\e90b";
+}
 .icon-github:before {
   content: "\e900";
 }
-
 .icon-linkedin:before {
   content: "\e901";
 }
-
 .icon-medium:before {
   content: "\e902";
 }
-
 .icon-twitter:before {
   content: "\e903";
 }
