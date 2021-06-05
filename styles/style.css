@@ -11491,6 +11491,25 @@ a:hover {
   text-decoration: none;
 }
 
+.btn_def--work {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  margin: 4px;
+  padding: 12px 20px;
+  background-color: rgba(242, 190, 36, 0.5);
+  color: #000;
+}
+.btn_def--work:hover {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #f2be24;
+  color: #000;
+}
+
 .card {
   border: none;
   padding: 36px 20px;
@@ -11509,8 +11528,11 @@ a:hover {
   text-align: justify;
 }
 .card__bottom {
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
+}
+.card__bottom .buttons {
+  margin-top: 32px;
 }
 
 .nav {

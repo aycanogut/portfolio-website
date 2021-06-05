@@ -1,0 +1,17 @@
+/// button styles
+
+.btn_def {
+  &--work {
+    @include transition(0.4s);
+    margin: 4px;
+    padding: 12px 20px;
+    background-color: rgba($color-saffron, 0.5);
+    color: #000;
+
+    &:hover {
+      @include transition(0.4s);
+      background-color: rgba($color-saffron, 1);
+      color: #000;
+    }
+  }
+}
