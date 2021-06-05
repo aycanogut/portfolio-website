@@ -2,7 +2,7 @@
 
 .card {
   border: none;
-  padding: 36px 20px;
+  padding: 46px 20px;
   background-color: rgba($color-tallow, 0.1);
 
   img {
@@ -12,20 +12,20 @@
 
   &__header {
     text-align: center;
-    padding: 12px 0 0 0;
+    padding: 18px 0 0 0;
   }
 
   &__main p {
-    padding: 20px 2px;
+    padding: 24px 2px;
     text-align: justify;
   }
 
   &__bottom {
-    margin: 20px auto;
+    margin: 16px auto;
     text-align: center;
 
     .buttons {
-      margin-top: 32px;
+      margin-top: 40px;
     }
   }
 }
