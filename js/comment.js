@@ -17,12 +17,12 @@ submitButton.addEventListener('click', () => {
       clearInput()
     } else {
       $(document).ready(function () {
-        $('.toast').toast('show');
+        $('.toast--email').toast('show');
       })
     }
   } else {
     $(document).ready(function () {
-      $('.toast--allinfo').toast('show');
+      $('.toast--info').toast('show');
     })
   }
 });

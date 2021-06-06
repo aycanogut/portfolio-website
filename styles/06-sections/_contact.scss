@@ -79,10 +79,16 @@
   }
 
   &__toast {
-    position: absolute;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%);
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+
+    .toast {
+      position: absolute;
+      left: 50%;
+      bottom: -385px;
+      transform: translate(-50%);
+    }
   }
 }
 

@@ -12078,9 +12078,14 @@ a:hover {
   width: 50px;
 }
 .contact__toast {
+  position: relative;
+  bottom: 0;
+  z-index: 1;
+}
+.contact__toast .toast {
   position: absolute;
   left: 50%;
-  bottom: 50%;
+  bottom: -385px;
   transform: translate(-50%);
 }
 
