@@ -12,9 +12,12 @@ const contactList = document.querySelector('.contact__message-list');
 submitButton.addEventListener('click', () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
+  <div class="contact__user">
+  <img src="../assets/icons/user.svg" class="contact__avatar">
   <p class="contact__name">
     ${firstName.value} ${lastName.value}
   </p>
+  </div>
   <address contact__mail>${userMail.value}</address>
   <p class="contact__message">
     ${userComment.value}

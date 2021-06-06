@@ -72,6 +72,16 @@ h3 {
     font-size: 18px;
     font-weight: $semibold;
   }
+
+  &__name {
+    font-weight: $semibold;
+  }
+
+  &__mail {
+  }
+
+  &__message {
+  }
 }
 
 // card

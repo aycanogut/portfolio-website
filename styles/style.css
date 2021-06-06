@@ -11528,7 +11528,9 @@ h3 {
   font-size: 18px;
   font-weight: 600;
 }
-
+.contact__name {
+  font-weight: 600;
+}
 .card__header h4 {
   font-weight: 600;
 }
@@ -12025,6 +12027,9 @@ a:hover {
   background-color: rgba(164, 166, 138, 0.1);
   padding: 0 12px 12px 12px;
 }
+.contact__user-messages {
+  padding-top: 20px;
+}
 .contact__user-messages ul {
   padding: 12px 0;
 }
@@ -12032,6 +12037,26 @@ a:hover {
   margin: 18px 0;
   padding: 20px 8px;
   border: 1px solid black;
+}
+.contact__messages {
+  text-align: center;
+  padding: 0 12px;
+}
+.contact__user {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.contact__avatar {
+  width: 32px;
+  height: auto;
+}
+.contact__name {
+  margin: 0 0 0 12px;
+}
+.contact__mail {
+  padding: 12px 4px;
+  margin: 0;
 }
 .contact__up-button {
   display: flex;

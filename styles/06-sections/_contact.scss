@@ -23,6 +23,8 @@
 
   // comment section
   &__user-messages {
+    padding-top: 20px;
+
     ul {
       padding: 12px 0;
 
@@ -34,10 +36,32 @@
     }
   }
 
+  // header title of comment section
+  &__messages {
+    text-align: center;
+    padding: 0 12px;
+  }
+
+  // user info
+
+  &__user {
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+
+  &__avatar {
+    width: 32px;
+    height: auto;
+  }
+
   &__name {
+    margin: 0 0 0 12px;
   }
 
   &__mail {
+    padding: 12px 4px;
+    margin: 0;
   }
 
   &__message {
