@@ -12015,6 +12015,7 @@ a:hover {
 }
 /* Extra large devices (large desktops, 1200px and up) */
 .contact {
+  position: relative;
   height: auto;
   margin: 100px 0 50px 0;
 }
@@ -12075,6 +12076,12 @@ a:hover {
 }
 .contact__up-button a img {
   width: 50px;
+}
+.contact__toast {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%);
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */

@@ -11,14 +11,28 @@ const contactList = document.querySelector('.contact__message-list');
 
 // append the item to the ul container
 submitButton.addEventListener('click', () => {
-  if (firstName.value && lastName.value && userMail.value && userComment.value && (userMail.value.includes('@') && userMail.value.includes('.'))) {
-    newComment();
-    clearInput()
+  if (firstName.value && lastName.value && userMail.value && userComment.value) {
+    if (userMail.value.includes('@') && userMail.value.includes('.')) {
+      newComment();
+      clearInput()
+    } else {
+      $(document).ready(function () {
+        $('.toast').toast('show');
+      })
+    }
   } else {
-    return;
+    $(document).ready(function () {
+      $('.toast--allinfo').toast('show');
+    })
   }
 });
 
+
+
+
+// $(document).ready(function () {
+//   $('.toast').toast('show');
+// })
 const newComment = () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
