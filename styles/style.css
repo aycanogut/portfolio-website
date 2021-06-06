@@ -11873,6 +11873,7 @@ a:hover {
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 .footer {
+  margin-top: 80px;
   background-color: rgba(164, 166, 138, 0.1);
 }
 .footer__social__items {
