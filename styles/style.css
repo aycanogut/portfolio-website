@@ -11723,6 +11723,9 @@ a:hover {
   .card {
     padding: 60px 20px;
   }
+  .card__main p {
+    padding: 24px 10px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {

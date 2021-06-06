@@ -38,6 +38,10 @@
 @include media(">=md") {
   .card {
     padding: 60px 20px;
+
+    &__main p {
+      padding: 24px 10px;
+    }
   }
 }
 
