@@ -11888,6 +11888,12 @@ a:hover {
   height: 80px;
 }
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .footer__social {
+    height: 100px;
+  }
+}
 .home {
   height: 100vh;
   display: flex;

@@ -15,3 +15,12 @@
     height: 80px;
   }
 }
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@include media(">=md") {
+  .footer {
+    &__social {
+      height: 100px;
+    }
+  }
+}
