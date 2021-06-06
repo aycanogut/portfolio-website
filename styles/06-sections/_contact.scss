@@ -1,15 +1,23 @@
 .contact {
   height: auto;
-  margin: 50px 0;
-  padding: 12px;
-  background-color: rgba($color-tallow, 0.1);
+  margin: 100px 0;
+
+  &__wrapper {
+    padding: 100px 0;
+  }
 
   &__header {
-    margin: 100px 0 0 0;
+    background-color: rgba($color-tallow, 0.1);
+    padding: 30px 12px;
   }
 
   &__title {
     text-transform: capitalize;
     text-align: center;
+  }
+
+  &__comment {
+    background-color: rgba($color-tallow, 0.1);
+    padding: 0 12px 12px 12px;
   }
 }
