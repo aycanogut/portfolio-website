@@ -66,6 +66,14 @@ h3 {
   }
 }
 
+// contact section
+.contact {
+  &__messages {
+    font-size: 18px;
+    font-weight: $regular;
+  }
+}
+
 // card
 .card {
   &__header h4 {

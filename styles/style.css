@@ -11524,6 +11524,11 @@ h3 {
   font-size: 42px;
 }
 
+.contact__messages {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .card__header h4 {
   font-weight: 600;
 }
@@ -12019,6 +12024,9 @@ a:hover {
 .contact__comment {
   background-color: rgba(164, 166, 138, 0.1);
   padding: 0 12px 12px 12px;
+}
+.contact__user-messages {
+  padding: 20px 0 100px 0;
 }
 .contact__up-button {
   display: flex;
