@@ -278,34 +278,36 @@
           </header>
           <!-- comment start -->
           <section class="contact__comment">
-            <form class="contact__form" method="post" action="#contact">
+            <!-- i used a div element instead of form because it was opening a new page when comment is submitted -->
+            <div class="contact__form">
               <div class="row">
                 <!-- first name -->
                 <div class="col">
                   <label for="exampleFormControlInput1" class="form-label">First name:</label>
                   <input type="text" class="form-control" id="first-name" placeholder="First name"
-                    aria-label="First name">
+                    aria-label="First name" required>
                 </div>
                 <!-- last name -->
                 <div class="col">
                   <label for="exampleFormControlInput1" class="form-label">Last name:</label>
-                  <input type="text" class="form-control" id="last-name" placeholder="Last name" aria-label="Last name">
+                  <input type="text" class="form-control" id="last-name" placeholder="Last name" aria-label="Last name"
+                    required>
                 </div>
               </div>
               <!-- e-mail -->
               <div class="my-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address:</label>
-                <input type="email" class="form-control" id="e-mail" placeholder="name@example.com">
+                <input type="email" class="form-control" id="e-mail" placeholder="name@example.com" required>
               </div>
               <!-- message -->
               <div class="my-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
               </div>
               <div class="mb-3 d-flex justify-content-center">
                 <button class="btn_def" id="submit" type="submit">Post Comment</button>
               </div>
-            </form>
+            </div>
             <section class="contact__user-messages">
               <header class="contact__messages">Comments from users: </header>
               <ul class="contact__message-list">

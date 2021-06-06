@@ -7,7 +7,6 @@ const userMail = document.querySelector('#e-mail');
 const userComment = document.querySelector('#message');
 const submitButton = document.querySelector('#submit');
 const closeButton = document.querySelector('.close-button');
-const liElement = document.querySelector('li');
 const contactList = document.querySelector('.contact__message-list');
 
 // append the item to the ul container
@@ -34,11 +33,11 @@ const newComment = () => {
     ${userComment.value}
   </p>
 </article>`
-  contactList.append(liDOM);
+  contactList.appendChild(liDOM);
 
-  removeComment()
+  liDOM.querySelector('.btn-close').addEventListener('click', removeComment);
 }
 
-const removeComment = () => {
-  closeButton.addEventListener('click', removeElement);
+function removeComment() {
+  this.parentNode.parentNode.parentNode.remove();
 }
