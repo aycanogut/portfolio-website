@@ -3,7 +3,7 @@
 .card {
   border: none;
   padding: 46px 20px;
-  background-color: rgba($color-tallow, 0.1);
+  margin-bottom: 50px;
 
   img {
     width: 100%;
@@ -27,6 +27,15 @@
     .buttons {
       margin-top: 40px;
     }
+  }
+
+  // card bg colors
+  &--odd {
+    background-color: rgba($color-tallow, 0.12);
+  }
+
+  &--even {
+    background-color: rgba($color-saffron, 0.12);
   }
 }
 

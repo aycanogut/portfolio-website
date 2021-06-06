@@ -11702,7 +11702,7 @@ a:hover {
 .card {
   border: none;
   padding: 46px 20px;
-  background-color: rgba(164, 166, 138, 0.1);
+  margin-bottom: 50px;
 }
 .card img {
   width: 100%;
@@ -11722,6 +11722,12 @@ a:hover {
 }
 .card__bottom .buttons {
   margin-top: 40px;
+}
+.card--odd {
+  background-color: rgba(164, 166, 138, 0.12);
+}
+.card--even {
+  background-color: rgba(242, 190, 36, 0.12);
 }
 
 /* Small devices (landscape phones, 576px and up) */
