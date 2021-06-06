@@ -11583,6 +11583,14 @@ h3 {
   .about__icon {
     font-size: 50px;
   }
+
+  .card__header h4 {
+    font-size: 26px;
+  }
+  .card__main p {
+    font-size: 20px;
+    line-height: 27px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
@@ -11971,7 +11979,7 @@ a:hover {
 /* Extra large devices (large desktops, 1200px and up) */
 .contact {
   height: auto;
-  margin: 100px 0;
+  margin: 100px 0 50px 0;
 }
 .contact__wrapper {
   padding: 100px 0;
