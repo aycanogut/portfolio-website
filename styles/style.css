@@ -12035,17 +12035,22 @@ a:hover {
 }
 .contact__user-messages ul li {
   margin: 18px 0;
-  padding: 20px 8px;
+  padding: 20px 20px;
   border: 1px solid black;
 }
 .contact__messages {
   text-align: center;
-  padding: 0 12px;
+  padding: 0 16px;
 }
 .contact__user {
   display: flex;
   align-items: center;
   height: auto;
+}
+.contact__user button {
+  margin-left: auto;
+  padding: 4px 12px;
+  font-size: 20px;
 }
 .contact__avatar {
   width: 32px;

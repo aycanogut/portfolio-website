@@ -18,7 +18,7 @@ submitButton.addEventListener('click', () => {
     ${firstName.value} ${lastName.value}
   </p>
   </div>
-  <address contact__mail>${userMail.value}</address>
+  <address class="contact__mail">${userMail.value}</address>
   <p class="contact__message">
     ${userComment.value}
   </p>
