@@ -1,15 +1,25 @@
 // take the information on contact section and append to the comment section.
 
-// 1- select the DOM elements.
+// dom elements define
 const firstName = document.querySelector('#first-name');
 const lastName = document.querySelector('#last-name');
 const userMail = document.querySelector('#e-mail');
 const userComment = document.querySelector('#message');
 const submitButton = document.querySelector('#submit');
+const closeButton = document.querySelector('.close-button');
+const liElement = document.querySelector('li');
 const contactList = document.querySelector('.contact__message-list');
 
-// 2- take that input data from the element
+// append the item to the ul container
 submitButton.addEventListener('click', () => {
+  if (firstName.value && lastName.value && userMail.value && userComment && (userMail.value.includes('@') && userMail.value.includes('.'))) {
+    newComment();
+  } else {
+    return;
+  }
+});
+
+const newComment = () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
   <div class="contact__user">
@@ -17,6 +27,7 @@ submitButton.addEventListener('click', () => {
   <p class="contact__name">
     ${firstName.value} ${lastName.value}
   </p>
+  <button type="button" class="btn btn-danger btn-close" aria-label="Close">&times;</button>
   </div>
   <address class="contact__mail">${userMail.value}</address>
   <p class="contact__message">
@@ -24,10 +35,10 @@ submitButton.addEventListener('click', () => {
   </p>
 </article>`
   contactList.append(liDOM);
-});
 
-// 3- concat the data
-// 4- design a new comment section inside on contact
-// 5- define all the style and classes to comment section
-// 6- append the comments into the comment section when button is clicked
-// 7- remove the comment with 'x' button
+  removeComment()
+}
+
+const removeComment = () => {
+  closeButton.addEventListener('click', removeElement);
+}
