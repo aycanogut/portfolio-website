@@ -11945,7 +11945,13 @@ a:hover {
     padding: 320px 5% 0 5%;
   }
   .home__bottom {
-    padding: 280px 0 0 0;
+    padding: 150px 0 0 0;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  .home {
+    padding-top: 100px;
+    margin-bottom: 100px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -11962,6 +11968,11 @@ a:hover {
   text-transform: capitalize;
 }
 
+@media (min-width: 768px) and (orientation: landscape) {
+  .work {
+    height: auto;
+  }
+}
 .about {
   height: auto;
   padding: 50px 0;
@@ -12003,6 +12014,11 @@ a:hover {
   }
   .about__myself, .about__stack {
     margin: 50px 0;
+  }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+  .about {
+    height: auto;
   }
 }
 /* Large devices (desktops, 992px and up) */

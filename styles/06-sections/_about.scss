@@ -54,6 +54,12 @@
   }
 }
 
+@include media(">=md", "landscape") {
+  .about {
+    height: auto;
+  }
+}
+
 /* Large devices (desktops, 992px and up) */
 @include media(">=lg") {
   .about {

@@ -40,8 +40,15 @@
     padding: 320px 5% 0 5%;
 
     &__bottom {
-      padding: 280px 0 0 0;
+      padding: 150px 0 0 0;
     }
+  }
+}
+
+@include media(">=md", "landscape") {
+  .home {
+    padding-top: 100px;
+    margin-bottom: 100px;
   }
 }
 

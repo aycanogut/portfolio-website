@@ -11,3 +11,9 @@
     text-transform: capitalize;
   }
 }
+
+@include media(">=md", "landscape") {
+  .work {
+    height: auto;
+  }
+}
