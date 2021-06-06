@@ -21,17 +21,26 @@
     padding: 0 12px 12px 12px;
   }
 
+  // comment section
   &__user-messages {
-    padding: 20px 0 100px 0;
-
     ul {
       padding: 12px 0;
 
       li {
+        margin: 18px 0;
+        padding: 20px 8px;
         border: 1px solid black;
-        padding: 12px 8px;
       }
     }
+  }
+
+  &__name {
+  }
+
+  &__mail {
+  }
+
+  &__message {
   }
 
   &__up-button {
