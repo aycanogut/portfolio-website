@@ -11526,7 +11526,7 @@ h3 {
 
 .contact__messages {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .card__header h4 {
@@ -12027,6 +12027,13 @@ a:hover {
 }
 .contact__user-messages {
   padding: 20px 0 100px 0;
+}
+.contact__user-messages ul {
+  padding: 12px 0;
+}
+.contact__user-messages ul li {
+  border: 1px solid black;
+  padding: 12px 8px;
 }
 .contact__up-button {
   display: flex;

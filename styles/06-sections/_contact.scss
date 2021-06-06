@@ -23,6 +23,15 @@
 
   &__user-messages {
     padding: 20px 0 100px 0;
+
+    ul {
+      padding: 12px 0;
+
+      li {
+        border: 1px solid black;
+        padding: 12px 8px;
+      }
+    }
   }
 
   &__up-button {
