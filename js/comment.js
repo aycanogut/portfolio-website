@@ -13,6 +13,7 @@ const contactList = document.querySelector('.contact__message-list');
 submitButton.addEventListener('click', () => {
   if (firstName.value && lastName.value && userMail.value && userComment && (userMail.value.includes('@') && userMail.value.includes('.'))) {
     newComment();
+    clearInput()
   } else {
     return;
   }
@@ -40,4 +41,12 @@ const newComment = () => {
 
 function removeComment() {
   this.parentNode.parentNode.parentNode.remove();
+}
+
+// clean placeholders after submit button is clicked
+const clearInput = () => {
+  firstName.value = null;
+  lastName.value = null;
+  userMail.value = null;
+  userComment.value = null;
 }
