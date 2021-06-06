@@ -11717,6 +11717,20 @@ a:hover {
   margin-top: 40px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .card {
+    padding: 60px 20px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card {
+    padding: 60px;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
 .nav {
   position: fixed;
   height: 80px;
