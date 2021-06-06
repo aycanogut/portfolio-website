@@ -11,7 +11,7 @@ const contactList = document.querySelector('.contact__message-list');
 
 // append the item to the ul container
 submitButton.addEventListener('click', () => {
-  if (firstName.value && lastName.value && userMail.value && userComment && (userMail.value.includes('@') && userMail.value.includes('.'))) {
+  if (firstName.value && lastName.value && userMail.value && userComment.value && (userMail.value.includes('@') && userMail.value.includes('.'))) {
     newComment();
     clearInput()
   } else {
