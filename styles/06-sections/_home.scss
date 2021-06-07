@@ -26,6 +26,18 @@
     flex-direction: column;
     justify-content: center;
     padding: 100px 0 0 0;
+
+    a img {
+      @include transition(0.4s);
+      width: 50px;
+      height: auto;
+      margin: 10px;
+
+      &:hover {
+        @include transition(0.4s);
+        transform: scale(1.1);
+      }
+    }
   }
 
   &__social {
@@ -56,6 +68,14 @@
 
 /* Large devices (desktops, 992px and up) */
 @include media(">=lg") {
+  .home {
+    &__bottom {
+      a img {
+        width: 100px;
+        margin: 20px;
+      }
+    }
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */

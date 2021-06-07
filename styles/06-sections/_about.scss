@@ -24,6 +24,12 @@
     margin: auto 0;
     padding: 20px;
     background-color: rgba($color-tallow, 0.1);
+
+    img {
+      width: 40px;
+      height: auto;
+      margin: 10px;
+    }
   }
 
   &__icon {
@@ -52,6 +58,14 @@
     &__myself,
     &__stack {
       margin: 50px 0;
+    }
+
+    &__skills {
+      img {
+        width: 60px;
+        height: auto;
+        margin: 10px;
+      }
     }
   }
 }
