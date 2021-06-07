@@ -1,16 +1,16 @@
 // hamburger toggler click event
 
-// nav list and links
+// nav-list and nav-links dom
 const navList = document.querySelector('.nav__list');
 const navLinks = document.querySelectorAll('.nav__item');
 
-// burger toggler and items
+// burger toggler and items dom
 const burgerToggler = document.querySelectorAll('.toggler');
 const firstChild = burgerToggler[0];
 const secondChild = burgerToggler[1];
 const thirdChild = burgerToggler[2];
 
-// navbar visible function
+// navbar toggle function
 const showNav = () => {
   // nav toggle action
   navList.classList.toggle('nav__show');
@@ -21,14 +21,14 @@ const showNav = () => {
   thirdChild.classList.toggle('toggler-3');
 }
 
-// add event to all nav links
+// add event to all nav-links
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
     removeNav();
   })
 })
 
-// reset the styles when a link clicked
+// reset the styles when nav-links clicked
 const removeNav = () => {
   navList.classList.toggle('nav__show');
   firstChild.classList.toggle('toggler-1');

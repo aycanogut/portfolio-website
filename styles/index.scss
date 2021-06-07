@@ -1,4 +1,4 @@
-// global stylesheet
+/// global stylesheet
 
 // 01-abstract
 @import "01-abstracts/colors";
@@ -19,7 +19,6 @@
 @import "04-components/icon";
 @import "04-components/button";
 @import "04-components/card";
-@import "04-components/form";
 
 // 05-layout
 @import "05-layout/nav";
@@ -29,5 +28,4 @@
 @import "06-sections/home";
 @import "06-sections/work";
 @import "06-sections/about";
-@import "06-sections/comment";
 @import "06-sections/contact";

@@ -1,5 +1,3 @@
-// take the information on contact section and append to the comment section.
-
 // dom elements define
 const firstName = document.querySelector('#first-name');
 const lastName = document.querySelector('#last-name');
@@ -27,12 +25,7 @@ submitButton.addEventListener('click', () => {
   }
 });
 
-
-
-
-// $(document).ready(function () {
-//   $('.toast').toast('show');
-// })
+// add new comment function
 const newComment = () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
@@ -53,6 +46,7 @@ const newComment = () => {
   liDOM.querySelector('.btn-close').addEventListener('click', removeComment);
 }
 
+// remove comment function
 function removeComment() {
   this.parentNode.parentNode.parentNode.remove();
 }
