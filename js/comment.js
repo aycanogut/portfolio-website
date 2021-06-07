@@ -1,3 +1,5 @@
+// take the information on contact section and append to the comment section.
+
 // dom elements define
 const firstName = document.querySelector('#first-name');
 const lastName = document.querySelector('#last-name');
@@ -6,12 +8,11 @@ const userComment = document.querySelector('#message');
 const submitButton = document.querySelector('#submit');
 const closeButton = document.querySelector('.close-button');
 const contactList = document.querySelector('.contact__message-list');
-const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 // append the item to the ul container
 submitButton.addEventListener('click', () => {
   if (firstName.value && lastName.value && userMail.value && userComment.value) {
-    if (userMail.value.includes('@') && userMail.value.includes('.') && (userMail.value.match(validRegex))) {
+    if (userMail.value.includes('@') && userMail.value.includes('.')) {
       newComment();
       clearInput()
     } else {
@@ -26,12 +27,13 @@ submitButton.addEventListener('click', () => {
   }
 });
 
-// add new comment function
+
+// new comment
 const newComment = () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
   <div class="contact__user">
-  <img src="../assets/icons/user.svg" class="contact__avatar">
+  <img src="./assets/icons/user.svg" class="contact__avatar">
   <p class="contact__name">
     ${firstName.value} ${lastName.value}
   </p>
@@ -47,7 +49,7 @@ const newComment = () => {
   liDOM.querySelector('.btn-close').addEventListener('click', removeComment);
 }
 
-// remove comment function
+// remove comment
 function removeComment() {
   this.parentNode.parentNode.parentNode.remove();
 }
