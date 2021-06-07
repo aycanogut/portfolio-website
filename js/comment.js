@@ -6,11 +6,12 @@ const userComment = document.querySelector('#message');
 const submitButton = document.querySelector('#submit');
 const closeButton = document.querySelector('.close-button');
 const contactList = document.querySelector('.contact__message-list');
+const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 // append the item to the ul container
 submitButton.addEventListener('click', () => {
   if (firstName.value && lastName.value && userMail.value && userComment.value) {
-    if (userMail.value.includes('@') && userMail.value.includes('.')) {
+    if (userMail.value.includes('@') && userMail.value.includes('.') && (userMail.value.match(validRegex))) {
       newComment();
       clearInput()
     } else {
