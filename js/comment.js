@@ -33,7 +33,7 @@ const newComment = () => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = `<article>
   <div class="contact__user">
-  <img src="./assets/icons/user.svg" class="contact__avatar">
+  <img src="./assets/icons/user.svg"class="contact__avatar" style="width: 32px; height:auto;">
   <p class="contact__name">
     ${firstName.value} ${lastName.value}
   </p>
