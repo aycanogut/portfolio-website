@@ -11507,14 +11507,14 @@ h3 {
 }
 
 .work__title {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .about__title {
-  font-weight: 600;
+  font-weight: 500;
 }
 .about__header {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 26px;
 }
 .about__text {
@@ -11526,13 +11526,6 @@ h3 {
 
 .contact__messages {
   font-size: 18px;
-  font-weight: 600;
-}
-.contact__name {
-  font-weight: 600;
-}
-.card__header h4 {
-  font-weight: 600;
 }
 .card__main p {
   font-size: 16px;
@@ -11580,9 +11573,6 @@ h3 {
     font-size: 50px;
   }
 
-  .about__title {
-    font-weight: 600;
-  }
   .about__text {
     font-size: 22px;
     line-height: 32px;

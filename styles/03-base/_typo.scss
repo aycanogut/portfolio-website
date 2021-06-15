@@ -7,13 +7,14 @@ body {
 
 h1 {
   font-size: 32px;
-  font-weight: $bold;
+  font-weight: map-get($font-weight, bold);
+
   line-height: 50px;
 }
 
 h2 {
   font-size: 20px;
-  font-weight: $bold;
+  font-weight: map-get($font-weight, bold);
 }
 
 h3 {
@@ -42,18 +43,18 @@ h3 {
 // work section
 .work {
   &__title {
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semi-bold);
   }
 }
 
 // about section
 .about {
   &__title {
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semi-bold);
   }
 
   &__header {
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semi-bold);
     font-size: 26px;
   }
 
@@ -70,11 +71,11 @@ h3 {
 .contact {
   &__messages {
     font-size: 18px;
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semibold);
   }
 
   &__name {
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semibold);
   }
 
   &__mail {
@@ -87,12 +88,12 @@ h3 {
 // card
 .card {
   &__header h4 {
-    font-weight: $semibold;
+    font-weight: map-get($font-weight, semibold);
   }
 
   &__main p {
     font-size: 16px;
-    font-weight: $regular;
+    font-weight: map-get($font-weight, regular);
     line-height: 25px;
   }
 }
@@ -147,7 +148,7 @@ h3 {
 
   .about {
     &__title {
-      font-weight: $semibold;
+      font-weight: map-get($font-weight, semibold);
     }
 
     &__text {

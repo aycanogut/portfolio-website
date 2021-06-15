@@ -4,9 +4,12 @@
 $font-family: "Poppins", sans-serif;
 
 // * font-weights
-$regular: 400;
-$semibold: 600;
-$bold: 700;
+
+$font-weight: (
+  "regular": 400,
+  "semi-bold": 500,
+  "bold": 700,
+);
 
 // * font-face
 
