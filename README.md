@@ -13,8 +13,9 @@
 
 #### [Demo](https://portfolio-website-nine-chi.vercel.app/)
 
+## License
 
-
+Licensed under the MIT license, see [LICENSE](https://github.com/aycanogut/portfolio-website/blob/main/LICENSE) for details.
 
 
 
